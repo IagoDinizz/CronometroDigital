@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ÁREA DE FORMATAÇÃO BRUTA */
+
+body{
+    background-color: goldenrod;
+}
+
+.container{
+    position: relative;
+
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    color: white;
+
+    margin: auto;
+    margin-top: 10%;
+
+    border-radius: 20px;
+
+}
+
+.divBotoes{
+    position: absolute;
+
+    width: 100%;
+    height: 200px;
+
+    top: 45%;
+    
+}
+
+/* ÁREA DE EFEITOS */
+
+/* EFEITOS NOS BOTÕES */
+
+#start:hover{
+    background-color: lightgreen;
+    color: black;
+    border-color: green;
+}
+
+#stop:hover{
+    background-color: red;
+    color: black;
+    border-color: red;
+}
+
+#reset:hover{
+    background-color: orange;
+    color: black;
+    border-color: orange;
+}
+
+/* ÁREA DE AJUSTES ESTÉTICOS */
+
+#textoh2{
+    position: absolute;
+
+    top: 10%;
+    left: 40%;
+    transform: translateX(-30%);
+
+    font-size: 28px;
+    color: gold;
+}
+
+#textoh4{
+    position: absolute;
+
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: 20px;
+}
+
+#textoh3{
+    position: absolute;
+
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: 30px;
+    color: white;
+}
+
+
+
+/* ESTÉTICOS BOTÕES */
+
+.btn{
+    width: 300px;
+    height: 50px;
+
+    margin-left: 50px;
+    margin-bottom: 15px;
+
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+
+   border-width: 3px;
+   border-color: gold;
+   border-radius: 10px;
+
+   background-color: black;
+   color: white;
+}
+
